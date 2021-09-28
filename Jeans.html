@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width==device-width, intial-scale=1.0">
+    <title>Jeans - Wish </title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+     <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\logo.jpg" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="code.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="Dresses.html">Dresses</a></li>
+                    <li><a href="Tops.html">Tops</a></li>
+                    <li><a href="Jeans.html">Jeans</a></li>
+                    <li><a href="kurtis.html">Kurtis</a></li>
+                    <li><a href="Kurtisets.html">Kurti Sets</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\cart.jpg" width="50px" height="50px">
+            <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\menu.jpg" width="50px" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\11.jpg" width="50%">
+            </div>
+            <div class="col-2">
+                <p>Home / Jeans </p>
+                <h2>Mid Blue Jeans</h2>
+                <h4>Rs.600.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to Cart</a>
+                <h3>Product Details</h3>
+                <p>This Mid Blue Jeans is heavily distressed jeans.</p>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+        
+        
+        
+        <div class="row">
+            <div class="col-5">
+             <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\11.jpg">
+             <h4>Mid Blue Jeans </h4>
+             <p> Rs.600.00 </p>
+         </div>
+         <div class="col-5">
+             <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\12.jpg">
+             <h4> Navy Blue Jeans</h4>
+             <p> Rs.780.00 </p>
+         </div>
+         <div class="col-5">
+             <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\13.jpg">
+             <h4> Blue Jeans</h4>
+             <p> Rs.860.00 </p>
+         </div>
+         <div class="col-5">
+             <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\14.jpg">
+             <h4> Dark Blue Torn Jeans</h4>
+             <p> Rs.989.00 </p>
+         </div>
+         <div class="col-5">
+             <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\15.jpg">
+             <h4> Mid rise Blue Jeans</h4>
+             <p> Rs.870.00 </p>
+         </div>
+        </div>
+        
+    </div>
+    </div> 
+    
+    
+    </div>  
+    </body>
+    <!------footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\logo1.jpg">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="C:\Users\harshadha\OneDrive\Desktop\Project\Images\logo.jpg" width="125px">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports  Accessible to the Many</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>BLog Post</li>
+                        <li>Return and Refund Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2021 - Easy Tutorials</p>
+        </div>
+    </div>
+    <!-------js for toggle menu----------->
+    <script> 
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
